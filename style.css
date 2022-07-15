@@ -1,0 +1,369 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  /* background-color: rgba(0,0,0, 0.4); */
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+}
+
+.topnav .menu a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-size: 17px;
+  margin-top: 15px;
+}
+
+.topnav .menu a:hover {
+  transform: scale(1.1);
+  color: rgb(251, 15, 15);
+}
+
+.menu {
+  margin-left: auto;
+  margin-right: 70px;
+}
+.container {
+  background-image: url(./image/cambridge.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+.logo img {
+  height: 50px;
+  width: 200px;
+  margin-left: 50px;
+  margin-top: 20px;
+  /* font-weight: 700; */
+}
+.logo img:hover {
+  transform: scale(1.1);
+}
+.heading {
+  color: white;
+  padding: 250px 150px;
+  text-align: center;
+  filter: brightness(50);
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.heading h1 {
+  font-size: 50px;
+}
+.courses {
+  margin: 0 70px;
+}
+.courseHeader {
+  text-align: center;
+  margin: 50px 0;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.card_decoration {
+  background-color: rgb(244, 218, 218);
+  display: inline-block;
+  background-size: cover;
+  margin: 0 10px;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+.card_decoration_c {
+  margin: 0 10px;
+  border-radius: 10px;
+  background-color: rgb(244, 218, 218);
+  padding: 0 10px;
+}
+.image {
+  background-image: url(./image/office_img.jpg);
+  margin: 0 80px;
+}
+.headind_button button {
+  padding: 15px 30px;
+  background-color: transparent;
+  border: 1px solid white;
+  /* border-style:calc(2px); */
+  color: #f2f2f2;
+  font-size: larger;
+}
+
+.aboutus {
+  text-align: center;
+  margin: 30px 75px;
+}
+
+.headind_button {
+  color: white;
+  padding: 150px 200px;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-size: cover;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.icon img {
+  width: 30px;
+  margin: 10px;
+}
+.Aboutcontainer {
+  background-image: url("./image/pexels-pixabay-267885.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.Aboutheading {
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #f2f2f2;
+  padding: 50px;
+  text-align: center;
+}
+.aboutPicture img {
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 100%;
+  height: 100%;
+  margin-left: 10px;
+}
+.about {
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+  margin: 80px 70px;
+}
+.aboutText {
+  width: 100%;
+  margin-right: 10px;
+  text-align: center;
+}
+.aboutText button {
+  padding: 10px 20px;
+}
+
+.course_card {
+  display: flex;
+  margin: 50px 80px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+.course_card img {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  width: 95%;
+  height: 60%;
+}
+
+.faclity {
+  text-align: center;
+  margin: 50px 80px;
+}
+.course_card h2,p{
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: center;
+  width: 95%;
+  height: auto;
+  text-align: center;
+}
+.mapouter{
+  /* background-color: aqua; */
+  margin-top:50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer{
+  margin: 30px 80px;
+  display: flex;
+  justify-content: space-evenly;
+  /* display: block; */
+  overflow:hidden;
+}
+.contactForm input {
+  padding: 10px 15px;
+ width: 90%;
+} textarea{
+  width: 98%;
+}
+.contactForm button{
+  padding: 8px 15px;
+}
+.address{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  /* overflow: hidden; */
+}
+
+
+.address img{
+  width: 40px;
+  margin-right: 10px;
+}
+
+.phone{
+  display: flex;
+  align-items: center;
+}
+.phone img{
+
+  width: 40px;
+  margin-right: 15px;
+}
+
+.email{
+  display: flex;
+  align-items: center;
+}
+.email img{
+
+  width: 40px;
+  margin-right: 20px;
+}
+/* .PhoneNumber{
+  width: 100%;
+} */
+
+.address_phone_email p{
+  width: 100%;
+  margin-top: -15px;
+ 
+}
+.address_phone_email{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+@media only screen and ( max-width:783px ){
+  .topnav {
+    /* overflow: hidden; */
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logo img {
+    text-align: center;
+    height: 40px;
+    width: auto;
+    margin-left: auto;
+  }
+  .menu{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: auto;
+  margin-right: auto;
+  }
+
+  .heading {
+    padding: 150px 150px;
+  }
+  .heading h1 {
+    font-size: 40px;
+  }
+  .headind_button {  
+    padding: 100px 100px;
+
+  }
+  .footer{
+    /* margin: 0px auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .address_phone_email{
+    margin-bottom: 30px;
+  }
+  .contactForm input {
+    border: 1px solid black;
+   width: 94%;
+  }
+  .contactForm textarea{
+    border: 1px solid black;
+  }
+}  
+
+@media only screen and ( max-width:550px ){
+  .heading {
+    padding: 50px 50px;
+  }
+  .heading h1 {
+    font-size: 30px;
+  }
+  .topnav .menu a {
+    padding: 5px 20px;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
+  .card_decoration{
+    margin: 10px;
+  }
+  .headind_button {  
+    padding: 20px 20px;
+
+  }
+  
+  .headind_button button {
+    padding: 10px 10px;
+    font-size:medium;
+  }
+
+  .courseHeader {
+    margin: 50px 0;
+    font-size: small;
+  }
+  .about {
+    display: flex;
+    flex-direction: column;
+    /* background-color: #d1cece; */
+
+  }
+  .aboutText{
+    font-size: medium;
+    margin-bottom: 20px;
+  }
+  .course_card{
+    display: flex;
+    flex-direction: column;
+  }
+  .footer{
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  .address_phone_email{
+    margin-bottom: 30px;
+  }
+  .contactForm input {
+    border: 1px solid black;
+    width: 88%;
+  }
+  .contactForm textarea{
+    border: 1px solid black;
+  }
+   textarea{
+    width: 95%;
+  }
+  
+
+}
